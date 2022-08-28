@@ -5,7 +5,6 @@
 }
 .left{
     flex: 0.5;
-border: 2px solid black;
 display: flex;
 flex-direction: column;
 }
@@ -35,7 +34,6 @@ font-weight: bolder;
     justify-content: center;
     align-items: center;
     flex: 0.5;
-    border: 2px solid black;
 position: relative;
 }
 

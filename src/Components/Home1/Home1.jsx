@@ -17,7 +17,7 @@ function Home1() {
         </div>
        <div className='righti'>
         <div className='texti'>
-        <h1>Hello</h1>
+        <h1>Hello , This is Ayush Singla</h1>
         <p>A FrontEnd Web Developer | HackerRank 5 ⭐| Codechef 3 ⭐</p>
     <p>A person who loves coding and give his minimum of 3 hours a day in learning new skills</p>
     <p>Believes in Consistency</p>       
