@@ -1,0 +1,52 @@
+#r {
+    color: #151719;
+    background-color: whitesmoke;
+    display: flex;
+    height: 70vh;
+    margin-bottom: 20px;
+}
+.leftpart{
+flex:0.3;
+border: 2px solid black;
+/* display: flex;
+flex-direction: column; */
+/* justify-content: center; */
+}
+.left1{
+    width: 220px;
+    padding: 2%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    margin-top: 20%;
+  
+    border-radius: 0.5rem;
+    border: 2px solid brown;
+}
+
+
+
+.rightpart{
+    flex: 0.7;
+    border:  2px solid black;
+ 
+}
+
+
+/* programing skill wala */
+/* .rightpart .right1{
+    height: 95%;
+
+    border: 2px solid red;} */
+
+    /* project wala */
+/* .rightpart .right{
+ height: 95%;
+border: 2px solid red;
+} */
+@media screen and (max-width:780px){
+    #r{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+}

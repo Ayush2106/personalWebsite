@@ -1,0 +1,25 @@
+.skill .logo{
+    width: 6%;
+}
+.skill{
+    padding-top: 2%;
+    height: 9vh;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.link .btn{
+    width: fit-content;
+    border-radius: 0.5rem;
+    color: antiquewhite;
+    background-color:  black;
+}
+/* .logo:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgb(160, 157, 157);
+    
+} */
+ .btn:hover{
+    cursor: pointer;
+    box-shadow: 10px 5px 5px grey;}

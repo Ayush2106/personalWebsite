@@ -1,0 +1,81 @@
+
+
+.c-right{
+  
+    margin-top: 3%;
+    height: 50vh;
+    display: flex;
+        position: relative;
+    flex: 1;
+}
+
+.c-right>form
+{
+    width: 100% ;
+    padding-top: 2%;
+    margin-right: 10%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    
+}
+
+.c-right .user{
+    width: 90%;
+    height: 2rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size: 16px;   
+}
+
+textarea{
+    height: 4rem!important;
+}
+
+.c-blur1{
+    top: 1rem;
+    left: 8rem;
+}
+
+@media screen and (max-width: 480px) {
+    .contact-form{
+        padding: 0;
+        flex-direction: column;
+        gap: 5rem;
+        /* height: 40rem; */
+    }
+    .c-right .user{
+        width: 90%;
+    }
+
+}   
+@media screen and (max-width:1800px) {
+    .c-right>form{
+margin-left: 30%;
+    }
+}
+@media screen and (max-width:980px) {
+    .footer{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .form1{
+        height: 45vh;
+        width: 90%;
+    }
+    .form2{
+    width: 90%;
+        height: 45vh;
+    }
+    .c-right>form{
+        margin-left: 5%;
+        margin-right: 0%;
+        height: 80%;
+        width: 90%;
+    }
+}

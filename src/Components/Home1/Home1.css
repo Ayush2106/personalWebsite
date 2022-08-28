@@ -1,0 +1,100 @@
+.Home{
+    display: flex;
+    height: 70vh;
+    margin-bottom: 30px;
+}
+.lefti{
+    flex: 0.5;
+    /* border: 2px solid black; */
+    background-color: rgba(245, 230, 233, 0.801);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .lefti img{
+    width: 70%;
+
+} */
+.image{
+    width: 52%;
+    height: 80%;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 40px -6px rgb(36, 29, 29);
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.righti{
+flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.righti .texti{
+    padding-left: 25%;
+/* border :2px solid red; */
+}
+.texti button{
+  /* padding: 8px; */
+        color: #eceded;
+        background-color: #6b6dff;
+        text-align: center;
+        font-size: large;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: 500;
+        min-width: 120px;
+    
+}
+.righti h1{
+    /* padding-top: 20px; */
+    font-size: 300%;
+    font-weight: bolder;
+    font-style: normal;
+}
+.righti p {
+    font-size: smaller;
+
+}
+
+
+
+@media screen and (max-width:1005px) {
+   .Home{
+    display: flex;
+/* margin-bottom: 8vh; */
+border: 2px solid black;
+}
+.righti h1 {
+    font-size: 200%;
+}
+}
+@media screen and (max-width:420px) {
+    .righti h1 {
+        font-size: 100%
+    };
+}
+
+@media screen and (max-width: 600px) {
+.Home{
+    display: flex;
+    flex-direction: column;
+    border: 2 px solid black;
+    height: 100vh;
+}
+.lefti{
+    height: 49vh;;
+}
+.righti{
+    height: 49vh;;
+
+}
+.righti h1{
+    font-size: 200%;
+}
+
+}

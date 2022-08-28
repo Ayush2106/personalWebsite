@@ -1,0 +1,25 @@
+/* .end{
+    margin-top: 10px;
+
+} */
+.end{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+}
+.little{
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 40%;
+}
+.icon1box{
+display: flex;
+gap: 1.5rem;
+position: absolute;
+right: 0;
+bottom: 0;
+}
+.icon1{
+ margin: 10px;
+ width: 40px;
+}
