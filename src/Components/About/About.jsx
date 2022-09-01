@@ -9,7 +9,10 @@ import Githublogo from '../../img/Githublogo.png';
 import java from '../../img/JAVA.png';
 import { motion } from "framer-motion";
 import ayushResume from "../../../src/ayush final resume.pdf"
-
+// import forage from"../../img/forageb.png";
+import gdsc from "../../img/gdsc.jpg";
+import gcloud from "../../img/gcloud.png";
+import ggsoc from "../../img/ggsocf.png";
 
 function About() {
   return (
@@ -18,10 +21,15 @@ function About() {
       <div className='left'>
 <div className='text'>
     <h1>AYUSH SINGLA</h1>
-    <p>A FrontEnd Web Developer | HackerRank 5 ⭐| Codechef 3 ⭐</p>
-    <p>A person who loves coding and give his minimum of 3 hours a day in learning new skills</p>
-    <p>Believes in Consistency</p>
+    <p>Technical Member of Developer Student Club by Google </p>
+    <p> Completed 30 days of Google Cloud Platform 2022 </p>
+    <p>Contributor of GirlScript Summer of Code 2022</p>
 </div>
+   <div className = "logoss">
+    <img src = {gdsc} alt =""/>
+    <img src = {gcloud} alt =""/>
+    <img src = {ggsoc} alt =""/>
+   </div>
                            
  <a  style = {{textDecorationLine:"none"}}href={ayushResume} download target="_blank">
    <div className='button'>Download CV</div>

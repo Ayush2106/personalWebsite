@@ -1,0 +1,22 @@
+.education{
+    /* border: 2px solid black; */
+    padding-left: 5%;
+    padding-right: 5%;
+    /* height: 80vh; */
+}
+.header{
+    display: flex;
+    /* border: 2px solid black; */
+}
+.icon{
+    padding-top: 2%;
+    padding-right: 2%;
+}
+.text h1{
+    font-weight: bold;
+    font-size: large;
+}
+.text h2{
+    font-size: medium;
+    
+}

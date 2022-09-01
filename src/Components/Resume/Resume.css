@@ -2,8 +2,8 @@
     color: #151719;
     background-color: whitesmoke;
     display: flex;
-    height: 70vh;
-    margin-bottom: 20px;
+    /* height: 100vh; */
+    margin-bottom: 20vh
 }
 .leftpart{
 flex:0.3;
@@ -47,6 +47,11 @@ border: 2px solid red;
     #r{
         display: flex;
         flex-direction: column;
-        height: 100vh;
+    }
+    .leftpart{
+        height: 40vh;
+    }
+    .rightpart{
+        height: 60vh;
     }
 }

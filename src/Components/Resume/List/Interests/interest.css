@@ -1,0 +1,12 @@
+.interest{
+    border: 2 px solid black;
+    padding-top: 10%;
+}
+.first h1{
+    font-size: large;
+    font-weight: bold;
+}
+.first p{
+    font-size: medium;
+    font-weight: normal;
+}
