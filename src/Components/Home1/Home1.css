@@ -72,7 +72,7 @@ flex: 0.5;
    .Home{
     display: flex;
 /* margin-bottom: 8vh; */
-border: 2px solid black;
+/* border: 2px solid black; */
 }
 .righti h1 {
     font-size: 200%;

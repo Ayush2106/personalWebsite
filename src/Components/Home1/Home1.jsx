@@ -20,9 +20,9 @@ function Home1() {
        <div className='righti'>
         <div className='texti'>
         <h1>Hello , This is Ayush Singla</h1>
-        <p>A FrontEnd Web Developer | HackerRank 5 ⭐| Codechef 3 ⭐</p>
+        <p>A FrontEnd Web Developer | HackerRank 5 ⭐</p>
+        <p>Working as an junior React Native developer Intern in Aaimaa Web Solutions,Jodhpur</p>
     <p>A person who loves coding and give his minimum of 3 hours a day in learning new skills</p>
-    <p>Believes in Consistency</p>
     <Link to="footer" spy={true} smooth={true}>
      <button  className = "button" type='submit'>Hire Me</button>
      </Link>

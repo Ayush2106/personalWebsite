@@ -11,6 +11,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
+
 function Footer() {
 
 
@@ -38,19 +39,44 @@ emailjs.sendForm(
         </div>
         <div className='email'>
           <EmailIcon />
-          <p>ayush123singla@gmail.com</p>
+          <p>ayush21singla@gmail.com</p>
         </div>
         <div className='mobile'>
           <PhoneIcon />
-          <p>9817406790</p>
+          <p>9817674090</p>
         </div>
 
         <div className='logos'>
-          <FacebookIcon />
-          <InstagramIcon />
-          <LinkedInIcon />
-          <TwitterIcon />
-          <GitHubIcon />
+          <FacebookIcon 
+          onClick={(e) => {
+            e.preventDefault();
+            window.location.href='https://www.facebook.com/ayush.singla.581730';
+            }}
+          />
+          <InstagramIcon 
+          onClick={(e) => {
+            e.preventDefault();
+            window.location.href='https://www.instagram.com/x_ayush01/';
+            }}
+          />
+          <LinkedInIcon 
+          onClick = {(e) =>{
+            e.preventDefault();
+            window.location.href = "https://www.linkedin.com/in/ayush-singla-04801b185/";
+          }}
+          />
+          <TwitterIcon 
+          onClick={(e) => {
+            e.preventDefault();
+            window.location.href='https://twitter.com/ayush21singla';
+            }}
+          />
+          <GitHubIcon 
+          onClick = {(e) =>{
+            e.preventDefault();
+            window.location.href="https://github.com/Ayush2106";
+          }}
+          />
         </div>
       </div>
        <div className='form2'>

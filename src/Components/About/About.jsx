@@ -31,7 +31,7 @@ function About() {
     <img src = {ggsoc} alt =""/>
    </div>
                            
- <a  style = {{textDecorationLine:"none"}}href={ayushResume} download target="_blank">
+ <a  style = {{textDecorationLine:"none"}}href={ayushResume} download target="_blank" rel = "noreferrer">
    <div className='button'>Download CV</div>
 </a>
       </div>
