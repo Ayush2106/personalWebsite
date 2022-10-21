@@ -5,7 +5,7 @@ import './Home1.css';
 // import linkedin from "../../img/linkedin.png";
 // import Github from "../../img/github.png";
 import ayush from "../../img/ayushimage.jpeg";
-import {  Link } from "react-scroll";
+import {Link } from "react-scroll";
 
 
 function Home1() {
