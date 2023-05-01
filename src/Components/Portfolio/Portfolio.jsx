@@ -10,6 +10,7 @@ import reels from '../../img/reels.jpg';
 import moviebox from "../../img/moviebox.png";
 import food from "../../img/food.png";
 import money from "../../img/moneyaccount.png";
+import nextNetflix from "../../img/nextnetflix.png";
 
 
 function Portfolio() {
@@ -48,6 +49,14 @@ grabCursor={true}
             window.location.href="https://fastidious-chimera-2cecb7.netlify.app/";
             }}
         src = {money} alt = ""/>
+        </SwiperSlide>
+        <SwiperSlide className='swiper-slide'>
+        <img 
+          onClick={(e) => {
+            e.preventDefault();
+            window.location.href="https://next-movie-webite-68iy.vercel.app/";
+            }}
+        src = {nextNetflix} alt = ""/>
         </SwiperSlide>
 
         <SwiperSlide className='swiper-slide'>
