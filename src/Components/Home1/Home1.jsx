@@ -20,9 +20,13 @@ function Home1() {
        <div className='righti'>
         <div className='texti'>
         <h1>Hello , This is Ayush Singla</h1>
-        <p>A FrontEnd Web Developer | HackerRank 5 ⭐</p>
-        <p>Working as an junior React Native developer Intern in Aaimaa Web Solutions,Jodhpur</p>
-    <p>A person who loves coding and give his minimum of 3 hours a day in learning new skills</p>
+       <p> Passionate MERN stack developer, skilled in React.js with a hunger for learning and staying updated with new
+        technologies.</p>
+        <p> Freelancer with a track record of delivering high-quality projects. Committed to innovation and
+        seeking opportunities to excel in the field of computer science. </p>
+        <p> Freelancer with a track record of delivering high-quality projects. Committed to innovation and
+seeking opportunities to excel in the field of computer science.</p>
+        {/* <p>Working as an junior React Native developer Intern in Aaimaa Web Solutions,Jodhpur</p> */}
     <Link to="footer" spy={true} smooth={true}>
      <button  className = "button" type='submit'>Hire Me</button>
      </Link>

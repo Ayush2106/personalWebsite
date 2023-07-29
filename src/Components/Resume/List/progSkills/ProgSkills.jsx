@@ -8,7 +8,7 @@ const ProgSkills = () => {
  {/* 1>>>   */}
         <div className="ps-skills">
           <div className="ps-details">
-            <span>HTML</span>
+            <span>ReactJS</span>
             <span>90%</span>
           </div>
           <div className="ps-bar">
@@ -18,7 +18,7 @@ const ProgSkills = () => {
  {/* 2>>>  */}
         <div className="ps-skills">
           <div className="ps-details">
-            <span>CSS</span>
+            <span>NodeJs</span>
             <span>70%</span>
           </div>
           <div className="ps-bar">
@@ -28,7 +28,7 @@ const ProgSkills = () => {
 {/* 3>>> */}
         <div className="ps-skills">
           <div className="ps-details">
-            <span>Javascript</span>
+            <span>ExpressJS</span>
             <span>50%</span>
           </div>
           <div className="ps-bar">
@@ -38,8 +38,8 @@ const ProgSkills = () => {
 {/* 4>>>>*/}
         <div className="ps-skills">
           <div className="ps-details">
-            <span>React Js</span>
-            <span>80%</span>
+            <span>MongoDb</span>
+            <span>60%</span>
           </div>
           <div className="ps-bar">
             <div id="react-bar"></div>
@@ -84,13 +84,23 @@ const ProgSkills = () => {
         <div className="ps-skills">
           <div className="ps-details">
             <span>Firebase</span>
-            <span>90%</span>
+            <span>50%</span>
           </div>
           <div className="ps-bar">
             <div id="firebase-bar"></div>
           </div>
         </div>
-
+{/* /*4>>>> */}
+<div className="ps-skills">
+          <div className="ps-details">
+            <span>ReactNative</span>
+            <span>50%</span>
+          </div>
+          <div className="ps-bar">
+            <div id="native-bar"></div>
+          </div>
+        </div>
+        {/* /*5>>.. */}
       </div>
 
 </div>

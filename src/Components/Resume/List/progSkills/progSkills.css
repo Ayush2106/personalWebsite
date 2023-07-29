@@ -80,7 +80,7 @@
 
 @keyframes react-fill {
     100% {
-        width: 80%;
+        width: 60%;
     }
 }
 
@@ -120,10 +120,18 @@
 
 @keyframes firebase-fill {
     100% {
-        width: 90%;
+        width: 50%;
     }
 }
+#native-bar {
+    animation: firebase-fill 2s forwards;
+}
 
+@keyframes firebase-fill {
+    100% {
+        width: 50%;
+    }
+}
 @media screen and (max-width:618px){
     .ps-container{
         display: flex;

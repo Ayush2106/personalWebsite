@@ -8,8 +8,7 @@ import firebase from '../../img/firebase.png';
 import Githublogo from '../../img/Githublogo.png';
 import java from '../../img/JAVA.png';
 import { motion } from "framer-motion";
-import ayushResume from "../../../src/AyushOverleaf resume.pdf"
-// import forage from"../../img/forageb.png";
+import ayushResume from "../../../src/CV_AyushSingla.pdf"
 import gdsc from "../../img/gdsc.jpg";
 import gcloud from "../../img/gcloud.png";
 import ggsoc from "../../img/ggsocf.png";
