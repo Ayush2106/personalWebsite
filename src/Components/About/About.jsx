@@ -8,7 +8,7 @@ import firebase from '../../img/firebase.png';
 import Githublogo from '../../img/Githublogo.png';
 import java from '../../img/JAVA.png';
 import { motion } from "framer-motion";
-import ayushResume from "../../../src/CV_AyushSingla.pdf"
+import ayushResume from "../../../src/Cv_AyushSingla_resume_"
 import gdsc from "../../img/gdsc.jpg";
 import gcloud from "../../img/gcloud.png";
 import ggsoc from "../../img/ggsocf.png";
@@ -42,7 +42,7 @@ function About() {
           initial={{ rotate: 45 }}
           whileInView={{ rotate: 0 }}
           viewport={{ margin: "-40px" }}
-          transition={{ duration: 3.5, type: "spring" }}
+          transition={{ duration: 10.5, type: "spring" }}
 
  className='w-mainCircle'>
     <div className='w-secCircle'>
