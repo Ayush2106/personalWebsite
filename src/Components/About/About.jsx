@@ -20,15 +20,14 @@ function About() {
       <div className='left'>
 <div className='text'>
     <h1>AYUSH SINGLA</h1>
-    <p>Technical Member of Developer Student Club by Google </p>
-    <p> Completed 30 days of Google Cloud Platform 2022 </p>
-    <p>Contributor of GirlScript Summer of Code 2022</p>
+<p>Works as a Frontend Developer at Creative Gene Digital (Nov '23 - Present).</p>
+<p>Worked as a Junior React Native Developer at Aaimaa Web Solutions (Sep '22 - Oct '22).</p>
 </div>
-   <div className = "logoss">
+{/*    <div className = "logoss">
     <img src = {gdsc} alt =""/>
     <img src = {gcloud} alt =""/>
     <img src = {ggsoc} alt =""/>
-   </div>
+   </div> */}
                            
  <a  style = {{textDecorationLine:"none"}}href={ayushResume} download target="_blank" rel = "noreferrer">
    <div className='button'>Download CV</div>
