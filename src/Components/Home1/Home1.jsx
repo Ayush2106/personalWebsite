@@ -24,8 +24,6 @@ function Home1() {
         technologies.</p>
         <p> Freelancer with a track record of delivering high-quality projects. Committed to innovation and
         seeking opportunities to excel in the field of computer science. </p>
-        <p> Freelancer with a track record of delivering high-quality projects. Committed to innovation and
-seeking opportunities to excel in the field of computer science.</p>
         {/* <p>Working as an junior React Native developer Intern in Aaimaa Web Solutions,Jodhpur</p> */}
     <Link to="footer" spy={true} smooth={true}>
      <button  className = "button" type='submit'>Hire Me</button>
