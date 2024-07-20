@@ -7,7 +7,7 @@ function education() {
     <div className='header'>
         <div className='icon'>  <SchoolIcon/> </div>
     <div className='text'>
- <h1>Pursuing Bachelor of Technology , CSE</h1>
+ <h1>Bachelor of Technology , CSE</h1>
  <h1>2020-2024</h1>
  <h2>Guru Gobind Singh Indraprastha University , Delhi</h2>
 {/* <h2> Dr.Akhilesh Das Gupta Institute of Technology and Managment </h2> */}

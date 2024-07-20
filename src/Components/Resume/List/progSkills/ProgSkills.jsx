@@ -9,7 +9,7 @@ const ProgSkills = () => {
         <div className="ps-skills">
           <div className="ps-details">
             <span>ReactJS</span>
-            <span>90%</span>
+            <span>80%</span>
           </div>
           <div className="ps-bar">
             <div id="html-bar"></div>
@@ -43,16 +43,6 @@ const ProgSkills = () => {
           </div>
           <div className="ps-bar">
             <div id="react-bar"></div>
-          </div>
-        </div>
-{/* 5>>>> */}
-        <div className="ps-skills">
-          <div className="ps-details">
-            <span>Redux</span>
-            <span>60%</span>
-          </div>
-          <div className="ps-bar">
-            <div id="redux-bar"></div>
           </div>
         </div>
       </div>

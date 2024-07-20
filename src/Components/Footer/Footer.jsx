@@ -56,7 +56,7 @@ emailjs.sendForm(
           <InstagramIcon 
           onClick={(e) => {
             e.preventDefault();
-            window.location.href='https://www.instagram.com/x_ayush01/';
+            window.location.href='https://www.instagram.com/ayuussh_21/';
             }}
           />
           <LinkedInIcon 

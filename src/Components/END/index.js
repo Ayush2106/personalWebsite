@@ -19,7 +19,7 @@ function index() {
 <img className = "icon1" src = {instagram} alt ="instagram" 
 onClick={(e) => {
   e.preventDefault();
-  window.location.href='https://www.instagram.com/x_ayush01/';
+  window.location.href='https://www.instagram.com/ayuussh_21/';
   }}
  />
 <img className = "icon1" src = {linkedin}  alt = "linkedin"
