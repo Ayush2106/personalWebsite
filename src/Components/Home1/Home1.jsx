@@ -19,7 +19,7 @@ function Home1() {
         </div>
        <div className='righti'>
         <div className='texti'>
-        <h1>Hello , This is Ayush Singla</h1>
+        <h1>Hello, This is Ayush Singla</h1>
        <p> Passionate MERN stack developer, skilled in React.js with a hunger for learning and staying updated with new
         technologies.</p>
         <p> Freelancer with a track record of delivering high-quality projects. Committed to innovation and

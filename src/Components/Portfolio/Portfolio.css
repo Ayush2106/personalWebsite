@@ -1,73 +1,76 @@
-/* .portfolio{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 70vh;
-}
-
-.portfolio span:nth-of-type(1){
-    color: var(--black);
-    font-size: 2rem;
-    font-weight: bold;
-}
-.portfolio span:nth-of-type(2){
-    color:var(--orange);
-font-size: 2.5rem;
-font-weight: bold;
-}
-.portfolio .swiper{
-    overflow: visible!important;
-}
-.portfolio-slider .swiper-slide{
-    width: 20rem;
-}
-.portfolio img{
-    width: 19rem;
-    filter: drop-shadow(-12px 15px 13px rgba(0,0,0,0.25));
-    border-radius: 19px;
-
-} */
-
 .portfolio {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 70vh;
-  
-  }
-  /* heading */
-  .portfolio span:nth-of-type(1) {
-    color: var(--black);
-    font-size: 2rem;
-    font-weight: bold;
-  }
-  
-  .portfolio span:nth-of-type(2) {
-    color: var(--orange);
-    font-size: 2.5rem;
-    font-weight: bold;
-  }
-  
-  /* slider */
-  .portfolio .swiper{
-      overflow: visible!important;
-  }
-  
-  .portfolio-slider {
-    margin-top: 3rem;
-    width: 100%;
-  }
-  
-  .portfolio-slider .swiper-slide {
-    width: 20rem;
-  }
-  .portfolio img {
-    width: 19rem;
-    height: 10rem;
-    filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
-    border-radius: 19px;
-  }
-  
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+/* Heading */
+.portfolio span:nth-of-type(1) {
+  color: var(--black);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.portfolio span:nth-of-type(2) {
+  color: var(--orange);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Slider */
+.portfolio .swiper {
+  overflow: visible !important;
+}
+
+.portfolio-slider {
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.portfolio-slider .swiper-slide {
+  width: 20rem;
+  position: relative;
+  transition: opacity 0.3s ease;
+}
+
+/* Dimmed effect for non-hovered cards */
+.portfolio-slider .swiper-slide.dimmed {
+  opacity: 0.7;
+}
+
+/* Image styling */
+.portfolio img {
+  width: 19rem;
+  height: 10rem;
+  filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+  border-radius: 19px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Hover effect for the image */
+.portfolio-slider .swiper-slide:hover img {
+  transform: scale(1.05);
+  filter: drop-shadow(-12px 15px 20px rgba(0, 0, 0, 0.35));
+}
+
+/* Project name display */
+.project-name {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  display: none; /* Hidden by default */
+  white-space: nowrap;
+}
+
+/* Show project name on hover */
+.portfolio-slider .swiper-slide:hover .project-name {
+  display: inline-block;
+}

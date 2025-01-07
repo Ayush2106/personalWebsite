@@ -18,7 +18,7 @@ function Footer() {
   const sendEmail = (e) =>{
 e.preventDefault();
 emailjs.sendForm(
-  "service_kwe19se",
+  "service_zhz8f6m",
   "template_mlgvn6i",
   e.target,
   "kZEVum4HFb6FDGhZV"

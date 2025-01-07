@@ -2,56 +2,61 @@
     color: #151719;
     background-color: whitesmoke;
     display: flex;
-    /* height: 100vh; */
-    margin-bottom: 20vh
-}
-.leftpart{
-flex:0.3;
-/* border: 2px solid black; */
-/* display: flex;
-flex-direction: column; */
-/* justify-content: center; */
-}
-.left1{
+    margin-bottom: 20vh;
+    padding: 20px;
+  }
+  
+  .leftpart {
+    flex: 0.3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .left1 {
     width: 220px;
     padding: 2%;
     margin-left: 10%;
     margin-bottom: 3%;
     margin-top: 20%;
+    border-radius: 1rem;
+    border: 2px solid #fcb01d;
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
   
-    border-radius: 0.5rem;
-    border: 2px solid brown;
-}
-
-
-
-.rightpart{
+  /* Active State Styling */
+  .left1.active {
+    background-color: #fcb01d;
+    color: white;
+  }
+  
+  /* Hover State Styling */
+  .left1:hover {
+    background-color: white;
+    color: #fcb01d;
+  }
+  
+  /* Right part layout */
+  .rightpart {
     flex: 0.7;
-    /* border:  2px solid black; */
- 
-}
-
-
-/* programing skill wala */
-/* .rightpart .right1{
-    height: 95%;
-
-    border: 2px solid red;} */
-
-    /* project wala */
-/* .rightpart .right{
- height: 95%;
-border: 2px solid red;
-} */
-@media screen and (max-width:780px){
-    #r{
-        display: flex;
-        flex-direction: column;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Mobile responsiveness */
+  @media screen and (max-width: 780px) {
+    #r {
+      flex-direction: column;
     }
-    .leftpart{
-        height: 40vh;
+    .leftpart {
+      height: 40vh;
     }
-    .rightpart{
-        height: 60vh;
+    .rightpart {
+      height: 60vh;
     }
-}
+  }
+  

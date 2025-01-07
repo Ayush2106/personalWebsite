@@ -41,7 +41,12 @@ flex: 0.5;
 
 .righti .texti{
     padding-left: 25%;
-/* border :2px solid red; */
+}
+@media screen and (max-width:900px) {
+    .righti .texti{
+        padding-left: 0%;
+    }
+    
 }
 .texti button{
   /* padding: 8px; */
